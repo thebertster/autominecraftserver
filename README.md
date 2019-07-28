@@ -23,7 +23,7 @@ Copy **minecraft** to */etc/xinetd.d*
 
 `sudo systemctl restart xinetd`
 
-Add `*/5 * * * * /opt/minecraft/stop.sh` to crontab for user minecraft
+Add `*/5 * * * * /opt/minecraft/stop.sh` to crontab for user minecraft (`sudo crontab -u minecraft -e`)
 
 ### What does it do?
 
