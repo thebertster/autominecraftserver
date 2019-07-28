@@ -1,0 +1,13 @@
+# 25565 stream tcp nowait minecraft /srv/minecraft/connectserver
+service minecraft
+{
+disable = no
+type = UNLISTED
+port = 25565
+socket_type = stream
+protocol = tcp
+user = minecraft
+wait = no
+server = /opt/minecraft/start.sh
+max_load = 20.0
+}
