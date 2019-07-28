@@ -1,4 +1,3 @@
-# 25565 stream tcp nowait minecraft /srv/minecraft/connectserver
 service minecraft
 {
 disable = no
