@@ -3,6 +3,8 @@
 
 ### Instructions for use:
 
+`sudo apt install openjdk-8-jre-headless screen xinetd`
+
 `sudo adduser --system --group --home /opt/minecraft minecraft`
 
 Download Minecraft Server to */opt/minecraft* and rename server JAR as *server.jar*
@@ -16,8 +18,6 @@ Copy **start.sh** and **stop.sh** to */opt/minecraft* and make them executable
 The Minecraft server should start and then stop saying the EULA needs to be accepted.
 
 Set `eula=true` in */opt/minecraft/eula.txt*
-
-`sudo apt install xinetd`
 
 Copy **minecraft** to */etc/xinetd.d*
 
